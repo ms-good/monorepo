@@ -9,17 +9,17 @@ export default defineConfig({
       jsxImportSource: '@emotion/react',
       babel: {
         plugins: [
+          'babel-plugin-macros',
           [
-            '@emotion/babel-plugin',
+            '@emotion/babel-plugin-jsx-pragmatic',
             {
-              autoLabel: 'dev-only',
-              labelFormat: '[dirname]--[filename]--[local]___',
+              export: 'jsx',
+              import: '__cssprop',
+              module: '@emotion/react',
             },
           ],
+          ['@babel/plugin-transform-react-jsx', { pragma: '__cssprop' }, 'twin.macro'],
         ],
-        parserOpts: {
-          plugins: ['decorators-legacy', 'classProperties'],
-        },
       },
     }),
     tsconfigPaths(),
