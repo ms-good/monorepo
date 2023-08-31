@@ -5989,6 +5989,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clock-client@workspace:packages/clock/client":
+  version: 0.0.0-use.local
+  resolution: "clock-client@workspace:packages/clock/client"
+  dependencies:
+    "@babel/core": ^7.22.11
+    "@babel/plugin-transform-react-jsx": ^7.22.5
+    "@client/design": "workspace:*"
+    "@emotion/babel-plugin-jsx-pragmatic": ^0.2.1
+    "@emotion/react": ^11.11.1
+    "@emotion/styled": ^11.11.0
+    "@types/react": ^18.2.15
+    "@types/react-dom": ^18.2.7
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    "@typescript-eslint/parser": ^6.0.0
+    "@vitejs/plugin-react": ^4.0.3
+    babel-plugin-macros: ^3.1.0
+    eslint: ^8.45.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    tailwindcss: ^3.3.3
+    twin.macro: ^3.4.0
+    typescript: ^5.0.2
+    vite: ^4.4.5
+    vite-tsconfig-paths: ^4.2.0
+  languageName: unknown
+  linkType: soft
+
 "clone-deep@npm:^4.0.1":
   version: 4.0.1
   resolution: "clone-deep@npm:4.0.1"
@@ -11826,35 +11855,6 @@ __metadata:
   checksum: beb0f338aa2931e5660ec7bf3ad949e6d2e068c31f4737b9525e5201b824ac40cac6a337224856b56bd1ddd866334bbfb92a9f57cd6f66bc3f18d3d86fc0fe50
   languageName: node
   linkType: hard
-
-"timer-client@workspace:packages/timer/client":
-  version: 0.0.0-use.local
-  resolution: "timer-client@workspace:packages/timer/client"
-  dependencies:
-    "@babel/core": ^7.22.11
-    "@babel/plugin-transform-react-jsx": ^7.22.5
-    "@client/design": "workspace:*"
-    "@emotion/babel-plugin-jsx-pragmatic": ^0.2.1
-    "@emotion/react": ^11.11.1
-    "@emotion/styled": ^11.11.0
-    "@types/react": ^18.2.15
-    "@types/react-dom": ^18.2.7
-    "@typescript-eslint/eslint-plugin": ^6.0.0
-    "@typescript-eslint/parser": ^6.0.0
-    "@vitejs/plugin-react": ^4.0.3
-    babel-plugin-macros: ^3.1.0
-    eslint: ^8.45.0
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.4.3
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    tailwindcss: ^3.3.3
-    twin.macro: ^3.4.0
-    typescript: ^5.0.2
-    vite: ^4.4.5
-    vite-tsconfig-paths: ^4.2.0
-  languageName: unknown
-  linkType: soft
 
 "tiny-invariant@npm:^1.3.1":
   version: 1.3.1

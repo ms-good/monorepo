@@ -3,7 +3,7 @@
   "packageManager": "yarn@3.6.3",
   "scripts": {
     "client-common-design": "yarn workspace @client/design",
-    "client-timer": "yarn workspace timer-client",
+    "client-clock": "yarn workspace clock-client",
     "prettier": "prettier . --write"
   },
   "workspaces": [

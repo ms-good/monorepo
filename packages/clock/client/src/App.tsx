@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div css={tw`max-w-3xl mx-auto`}>
-      <h1 css={tw`flex justify-center p-10 text-5xl font-bold`}>TIMER</h1>
+      <h1 css={tw`flex justify-center p-10 text-5xl font-bold`}>CLOCK</h1>
       <div css={tw`flex flex-col`}>
         <ul css={tw`flex w-full`}>
           {tabs.map((tab) => {

@@ -18,7 +18,7 @@
       "path": "packages/client-common/design"
     },
     {
-      "path": "packages/timer/client"
+      "path": "packages/clock/client"
     }
   ],
   "exclude": ["packages/**/dist/**"],
