@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import tw from 'twin.macro';
+import { Timer } from './components/Timer';
+import { StopWatch } from './components/StopWatch';
 // import { Button, Input } from '@client/design';
 
 // TODO: 디자인 시스템을 만들고 디자인 시스템 컴포넌트를 이용하게 수정
@@ -36,11 +38,3 @@ function App() {
 }
 
 export default App;
-
-function Timer() {
-  return <div css={tw`w-full h-96 bg-neutral-200`}>Timer</div>;
-}
-
-function StopWatch() {
-  return <div css={tw`w-full h-96 bg-neutral-200`}>StopWatch</div>;
-}
