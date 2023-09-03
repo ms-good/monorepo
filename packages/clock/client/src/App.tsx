@@ -31,7 +31,7 @@ function App() {
             );
           })}
         </ul>
-        {currentTab === 'timer' ? <Timer /> : <StopWatch />}
+        <div css={tw`w-full h-96`}>{currentTab === 'timer' ? <Timer /> : <StopWatch />}</div>
       </div>
     </div>
   );
