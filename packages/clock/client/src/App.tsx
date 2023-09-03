@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import tw from 'twin.macro';
+import tw, { styled } from 'twin.macro';
 import { Timer } from './components/Timer';
 import { StopWatch } from './components/StopWatch';
 // import { Button, Input } from '@client/design';
@@ -31,10 +31,14 @@ function App() {
             );
           })}
         </ul>
-        <div css={tw`w-full h-96`}>{currentTab === 'timer' ? <Timer /> : <StopWatch />}</div>
+        <InnerLayout>{currentTab === 'timer' ? <Timer /> : <StopWatch />}</InnerLayout>
       </div>
     </div>
   );
 }
 
 export default App;
+
+const InnerLayout = styled.div`
+  ${tw`w-full h-96`}
+`;
