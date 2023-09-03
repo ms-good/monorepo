@@ -21,6 +21,7 @@ function App() {
             const isSelected = currentTab === tab;
             return (
               <li
+                key={tab}
                 css={[
                   tw`w-1/2 text-center text-xl cursor-pointer text-gray-500 border-b-0 border-gray-500`,
                   isSelected && tw`text-blue-500 border-b-2 border-blue-500`,
