@@ -9288,6 +9288,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/babel-plugin-jsx-pragmatic", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:0.2.1"],\
             ["@emotion/react", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:11.11.1"],\
             ["@emotion/styled", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:11.11.0"],\
+            ["@mdx-js/react", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:1.6.22"],\
+            ["@storybook/addon-actions", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addon-backgrounds", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addon-docs", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addon-essentials", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addon-interactions", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.0.15"],\
+            ["@storybook/addon-links", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.0.15"],\
+            ["@storybook/addon-mdx-gfm", "npm:7.4.0"],\
+            ["@storybook/addon-measure", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addon-outline", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/addons", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/blocks", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.0.15"],\
+            ["@storybook/builder-vite", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/channel-postmessage", "npm:7.4.0"],\
+            ["@storybook/channel-websocket", "npm:7.4.0"],\
+            ["@storybook/client-api", "npm:7.4.0"],\
+            ["@storybook/core-common", "npm:7.4.0"],\
+            ["@storybook/global", "npm:5.0.0"],\
+            ["@storybook/node-logger", "npm:7.4.0"],\
+            ["@storybook/preview-web", "npm:7.4.0"],\
+            ["@storybook/react", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.4.0"],\
+            ["@storybook/react-vite", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:7.0.15"],\
+            ["@storybook/testing-library", "npm:0.1.0"],\
             ["@testing-library/jest-dom", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:6.1.2"],\
             ["@testing-library/react", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:14.0.0"],\
             ["@testing-library/user-event", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:14.4.3"],\
@@ -9301,10 +9324,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.48.0"],\
             ["eslint-plugin-react-hooks", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:0.4.3"],\
+            ["eslint-plugin-storybook", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:0.6.13"],\
             ["jest", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:29.6.4"],\
             ["jest-environment-jsdom", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:29.6.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1b071c78cc5582c503fb38da3de3204b7da8896225d61e7986edc139c63f956b1a10537a711ad763112eb324b917b199cb70594355ffdbeccd728bb6fbd9c012#npm:18.2.0"],\
+            ["storybook", "npm:7.4.0"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["ts-jest", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:29.1.1"],\
             ["twin.macro", "virtual:e991823222746b8f0ad648ed1358da8c2ac646701030f8fcfd50084ee42da497771613e4cfa59c1a369fe78638d3588a2036650ffa4b84871d3f4cd1ac38600f#npm:3.4.0"],\

@@ -6538,6 +6538,29 @@ __metadata:
     "@emotion/babel-plugin-jsx-pragmatic": ^0.2.1
     "@emotion/react": ^11.11.1
     "@emotion/styled": ^11.11.0
+    "@mdx-js/react": ^1.6.22
+    "@storybook/addon-actions": ^7.0.15
+    "@storybook/addon-backgrounds": ^7.0.15
+    "@storybook/addon-docs": ^7.0.15
+    "@storybook/addon-essentials": ^7.0.15
+    "@storybook/addon-interactions": 7.0.15
+    "@storybook/addon-links": 7.0.15
+    "@storybook/addon-mdx-gfm": ^7.4.0
+    "@storybook/addon-measure": ^7.0.15
+    "@storybook/addon-outline": ^7.0.15
+    "@storybook/addons": ^7.0.15
+    "@storybook/blocks": 7.0.15
+    "@storybook/builder-vite": ^7.0.15
+    "@storybook/channel-postmessage": ^7.0.15
+    "@storybook/channel-websocket": ^7.0.15
+    "@storybook/client-api": ^7.0.15
+    "@storybook/core-common": ^7.0.15
+    "@storybook/global": ^5.0.0
+    "@storybook/node-logger": ^7.0.15
+    "@storybook/preview-web": ^7.0.15
+    "@storybook/react": ^7.0.15
+    "@storybook/react-vite": 7.0.15
+    "@storybook/testing-library": ^0.1.0
     "@testing-library/jest-dom": ^6.1.2
     "@testing-library/react": ^14.0.0
     "@testing-library/user-event": ^14.4.3
@@ -6551,10 +6574,12 @@ __metadata:
     eslint: ^8.45.0
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.3
+    eslint-plugin-storybook: ^0.6.13
     jest: ^29.6.4
     jest-environment-jsdom: ^29.6.4
     react: ^18.2.0
     react-dom: ^18.2.0
+    storybook: ^7.4.0
     tailwindcss: ^3.3.3
     ts-jest: ^29.1.1
     twin.macro: ^3.4.0
