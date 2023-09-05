@@ -9,6 +9,10 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-essentials'),
     getAbsolutePath('@storybook/addon-interactions'),
     getAbsolutePath('@storybook/addon-mdx-gfm'),
+    {
+      name: '@storybook/addon-styling',
+      options: {},
+    },
   ],
 
   framework: {

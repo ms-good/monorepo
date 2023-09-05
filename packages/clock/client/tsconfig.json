@@ -28,6 +28,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "types"],
+  "include": ["src", "types", "./storybook/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

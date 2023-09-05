@@ -34,6 +34,7 @@
     "@storybook/addon-mdx-gfm": "^7.4.0",
     "@storybook/addon-measure": "^7.0.15",
     "@storybook/addon-outline": "^7.0.15",
+    "@storybook/addon-styling": "^1.3.7",
     "@storybook/addons": "^7.0.15",
     "@storybook/blocks": "7.0.15",
     "@storybook/builder-vite": "^7.0.15",
