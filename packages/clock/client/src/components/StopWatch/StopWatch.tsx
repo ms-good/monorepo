@@ -47,34 +47,40 @@ export function StopWatch() {
           `}>
           {buttons}
         </div>
-        <div>
-          {recordData.length ? (
-            <div
-              css={css`
-                ${tw`grid gap-2`}
-              `}>
-              <div
-                css={css`
-                  ${RecordDataStyle}
-                  ${tw`border-b-2 border-gray-500`}
-                `}>
-                <div>Index</div>
-                <div>Record</div>
-                <div>Full Time</div>
-              </div>
-              <div tw="overflow-auto h-56">
-                {recordData.reverse().map(({ fullTime, index, sectionRecord }) => (
-                  <div css={RecordDataStyle}>
-                    <div>{index}</div>
-                    <div>{msToTimeString(sectionRecord)}</div>
-                    <div>{msToTimeString(fullTime)}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ) : null}
-        </div>
+        <StopWatchRecordDataView recordData={recordData.reverse()} />
       </div>
+    </div>
+  );
+}
+
+function StopWatchRecordDataView({ recordData }: { recordData: ReturnType<typeof useStopWatch>['recordData'] }) {
+  return (
+    <div>
+      {recordData.length ? (
+        <div
+          css={css`
+            ${tw`grid gap-2`}
+          `}>
+          <div
+            css={css`
+              ${RecordDataStyle}
+              ${tw`border-b-2 border-gray-500`}
+            `}>
+            <div>Index</div>
+            <div>Record</div>
+            <div>Full Time</div>
+          </div>
+          <div tw="overflow-auto h-56">
+            {recordData.map(({ fullTime, index, sectionRecord }) => (
+              <div css={RecordDataStyle} key={index}>
+                <div>{index}</div>
+                <div>{msToTimeString(sectionRecord)}</div>
+                <div>{msToTimeString(fullTime)}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
