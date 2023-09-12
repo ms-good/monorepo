@@ -19,7 +19,7 @@ export const useStopWatch = () => {
     () => {
       setTime(new Date().getTime());
     },
-    state === 'progress' ? 1 : null,
+    state === 'progress' ? DELAY : null,
   );
 
   const handleSectionRecord = () => {
@@ -56,3 +56,5 @@ export const useStopWatch = () => {
     handleInit,
   };
 };
+
+const DELAY = 1;
