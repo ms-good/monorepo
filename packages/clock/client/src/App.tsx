@@ -10,7 +10,7 @@ type TabState = 'timer' | 'stopwatch';
 const tabs: TabState[] = ['timer', 'stopwatch'];
 
 function App() {
-  const [currentTab, setCurrentTab] = useState<TabState>('timer');
+  const [currentTab, setCurrentTab] = useState<TabState>('stopwatch');
 
   return (
     <div css={tw`max-w-3xl mx-auto`}>
