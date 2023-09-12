@@ -54,6 +54,17 @@ export function StopWatch() {
 }
 
 function StopWatchRecordDataView({ recordData }: { recordData: ReturnType<typeof useStopWatch>['recordData'] }) {
+  const minTime = Math.min(
+    ...recordData.map(({ sectionRecord }) => {
+      return sectionRecord;
+    }),
+  );
+  const maxTime = Math.max(
+    ...recordData.map(({ sectionRecord }) => {
+      return sectionRecord;
+    }),
+  );
+
   return (
     <div>
       {recordData.length ? (
@@ -71,13 +82,23 @@ function StopWatchRecordDataView({ recordData }: { recordData: ReturnType<typeof
             <div>Full Time</div>
           </div>
           <div tw="overflow-auto h-56">
-            {recordData.map(({ fullTime, index, sectionRecord }) => (
-              <div css={RecordDataStyle} key={index}>
-                <div>{index}</div>
-                <div>{msToTimeString(sectionRecord)}</div>
-                <div>{msToTimeString(fullTime)}</div>
-              </div>
-            ))}
+            {recordData.map(({ fullTime, index, sectionRecord }) => {
+              const isMinSectionRecord = minTime === sectionRecord;
+              const isMaxSectionRecord = maxTime === sectionRecord;
+              return (
+                <div css={RecordDataStyle} key={index}>
+                  <div
+                    css={css`
+                      ${isMinSectionRecord && tw`text-red-500`}
+                      ${isMaxSectionRecord && tw`text-blue-500`}
+                    `}>
+                    {index}
+                  </div>
+                  <div>{msToTimeString(sectionRecord)}</div>
+                  <div>{msToTimeString(fullTime)}</div>
+                </div>
+              );
+            })}
           </div>
         </div>
       ) : null}
