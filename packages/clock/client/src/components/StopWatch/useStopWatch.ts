@@ -43,6 +43,7 @@ export const useStopWatch = () => {
     setState('init');
     setTime(0);
     setInitTime(null);
+    setFullTimeList([]);
   };
 
   return {
