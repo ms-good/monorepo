@@ -18,6 +18,9 @@
       "path": "packages/client-common/design"
     },
     {
+      "path": "packages/client-common/hooks"
+    },
+    {
       "path": "packages/clock/client"
     }
   ],
