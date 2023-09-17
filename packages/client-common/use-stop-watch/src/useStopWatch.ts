@@ -2,6 +2,12 @@ import { useState } from 'react';
 import { State } from './types';
 import { useInterval } from '@client/hooks';
 
+/**
+ * @description
+ * 스톱워치 훅을 생성합니다.
+ *
+ * @param {number} delay - 스톱워치 업데이트 간격(ms)입니다. default는 1입니다.
+ */
 export const useStopWatch = (delay: number = 1) => {
   const [state, setState] = useState<State>('init');
   const [initTime, setInitTime] = useState<number | null>(null);
