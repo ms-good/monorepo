@@ -1,8 +1,14 @@
 import { useState } from 'react';
 import { State } from './types';
-import { useInterval } from '@/hooks';
+import { useInterval } from '@client/hooks';
 
-export const useStopWatch = () => {
+/**
+ * @description
+ * 스톱워치 훅을 생성합니다.
+ *
+ * @param {number} delay - 스톱워치 업데이트 간격(ms)입니다. default는 1입니다.
+ */
+export const useStopWatch = (delay: number = 1) => {
   const [state, setState] = useState<State>('init');
   const [initTime, setInitTime] = useState<number | null>(null);
   const [time, setTime] = useState<number | null>(null);
@@ -19,7 +25,7 @@ export const useStopWatch = () => {
     () => {
       setTime(new Date().getTime());
     },
-    state === 'progress' ? DELAY : null,
+    state === 'progress' ? delay : null,
   );
 
   const handleSectionRecord = () => {
@@ -57,5 +63,3 @@ export const useStopWatch = () => {
     handleInit,
   };
 };
-
-const DELAY = 1;

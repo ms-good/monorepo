@@ -18,6 +18,12 @@
       "path": "packages/client-common/design"
     },
     {
+      "path": "packages/client-common/hooks"
+    },
+    {
+      "path": "packages/client-common/use-stop-watch"
+    },
+    {
       "path": "packages/clock/client"
     }
   ],
