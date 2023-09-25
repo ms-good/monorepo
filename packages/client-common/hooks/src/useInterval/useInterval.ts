@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type TimerHandler = (...args: any[]) => void;
 type Delay = number | null;
 
@@ -20,8 +21,11 @@ export function useInterval(callback: TimerHandler, delay: Delay) {
   }, [callback]);
 
   useEffect(() => {
-    if (delay === null) return;
+    if (delay === null) {
+      return;
+    }
 
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     const handler = (...args: any[]) => savedCallbackRef.current?.(...args);
     const intervalId = setInterval(handler, delay);
     return () => clearInterval(intervalId);
