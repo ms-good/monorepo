@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, ReactNode, forwardRef } from 'react';
+import { ButtonHTMLAttributes, forwardRef, ReactNode } from 'react';
 import tw from 'twin.macro';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

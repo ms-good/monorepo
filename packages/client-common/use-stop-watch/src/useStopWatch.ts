@@ -1,6 +1,8 @@
-import { useState } from 'react';
-import { State } from './types.ts';
 import { useInterval } from '@client/hooks';
+import { useState } from 'react';
+
+
+import { State } from './types.ts';
 
 /**
  * @description

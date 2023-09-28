@@ -31,6 +31,26 @@ module.exports = {
     curly: ['error', 'all'],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'import/extensions': ['error', 'ignorePackages'],
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        allowSeparatedGroups: true,
+      },
+    ],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index', 'object', 'type'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
 
     '@emotion/pkg-renaming': 'error',
 

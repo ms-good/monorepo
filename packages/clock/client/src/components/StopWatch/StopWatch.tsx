@@ -1,8 +1,10 @@
+import { useStopWatch } from '@client/use-stop-watch';
 import React from 'react';
 import tw, { css } from 'twin.macro';
+
 import { msToTimeString } from '@/utils/time.ts';
+
 import { Button } from '../Button/index.ts';
-import { useStopWatch } from '@client/use-stop-watch';
 
 export function StopWatch() {
   const { state, recordData, currentTime, handleSectionRecord, handleStart, handleContinue, handlePause, handleInit } =
