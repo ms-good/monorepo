@@ -1,8 +1,7 @@
 import { useInterval } from '@client/hooks';
 import { useState } from 'react';
 
-
-import { State } from './types.ts';
+export type State = 'init' | 'progress' | 'pause';
 
 /**
  * @description
