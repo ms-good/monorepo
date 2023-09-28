@@ -13,6 +13,7 @@ module.exports = {
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
+    sourceType: 'module',
   },
 
   extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'prettier'],
@@ -29,6 +30,7 @@ module.exports = {
     ],
     curly: ['error', 'all'],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'import/extensions': ['error', 'ignorePackages'],
 
     '@emotion/pkg-renaming': 'error',
 

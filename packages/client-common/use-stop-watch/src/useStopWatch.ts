@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { State } from './types';
+import { State } from './types.ts';
 import { useInterval } from '@client/hooks';
 
 /**
@@ -8,7 +8,7 @@ import { useInterval } from '@client/hooks';
  *
  * @param {number} delay - 스톱워치 업데이트 간격(ms)입니다. default는 1입니다.
  */
-export const useStopWatch = (delay: number = 1) => {
+export const useStopWatch = (delay = 1) => {
   const [state, setState] = useState<State>('init');
   const [initTime, setInitTime] = useState<number | null>(null);
   const [time, setTime] = useState<number | null>(null);

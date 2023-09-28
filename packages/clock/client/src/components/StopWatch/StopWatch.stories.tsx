@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { StopWatch } from './StopWatch';
+import { StopWatch } from './StopWatch.tsx';
 
 const meta: Meta<typeof StopWatch> = {
   title: 'StopWatch',

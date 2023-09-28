@@ -11,6 +11,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
 
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,

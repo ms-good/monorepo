@@ -1,7 +1,7 @@
 import React from 'react';
 import tw, { css } from 'twin.macro';
-import { msToTimeString } from '@/utils';
-import { Button } from '../Button';
+import { msToTimeString } from '@/utils/time.ts';
+import { Button } from '../Button/index.ts';
 import { useStopWatch } from '@client/use-stop-watch';
 
 export function StopWatch() {

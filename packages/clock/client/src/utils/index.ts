@@ -1,1 +1,1 @@
-export { msToTimeString } from './time';
+export { msToTimeString } from './time.ts';

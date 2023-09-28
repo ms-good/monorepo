@@ -1,1 +1,1 @@
-export { color } from './color';
+export { color } from './color/index.ts';

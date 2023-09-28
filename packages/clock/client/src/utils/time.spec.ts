@@ -1,4 +1,4 @@
-import { msToTimeString } from './time';
+import { msToTimeString } from './time.ts';
 
 describe('msToTimeString', () => {
   it('should format 0 milliseconds as "00:00.00"', () => {

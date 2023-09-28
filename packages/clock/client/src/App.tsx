@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import tw, { styled } from 'twin.macro';
-import { Timer } from './components/Timer';
-import { StopWatch } from './components/StopWatch';
+import { Timer } from './components/Timer/index.ts';
+import { StopWatch } from './components/StopWatch/index.ts';
 // import { Button, Input } from '@client/design';
 
 // TODO: 디자인 시스템을 만들고 디자인 시스템 컴포넌트를 이용하게 수정
