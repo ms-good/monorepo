@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
-import { Header } from './Header';
+import { Header } from './Header.tsx';
 import './page.css';
 
 type User = {

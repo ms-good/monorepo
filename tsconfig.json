@@ -5,13 +5,25 @@
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /** Strict */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true, // 파일 대 소문자 구분
+    "noUncheckedIndexedAccess": true, // 인덱스로 배열에 접근 시 타입 안전성 검사
+    "allowUnreachableCode": false // 도달할 수 없는 코드 허용
   },
   "references": [
     {

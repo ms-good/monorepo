@@ -1,5 +1,6 @@
 import { renderHook } from '@testing-library/react';
-import { useInterval } from './useInterval';
+
+import { useInterval } from './useInterval.ts';
 
 let callback = jest.fn();
 
