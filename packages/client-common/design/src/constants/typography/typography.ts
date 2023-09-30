@@ -1,6 +1,22 @@
 import { Px } from '@/utils/index.ts';
 
-export type Typography = Record<string, { fontWeight: number; fontSize: Px; lineHeight: Px; letterSpacing: Px }>;
+type TypoKey =
+  | 'displayL'
+  | 'displayM'
+  | 'displayS'
+  | 'headL'
+  | 'headM'
+  | 'headS'
+  | 'titleL'
+  | 'titleM'
+  | 'titleS'
+  | 'bodyL'
+  | 'bodyM'
+  | 'bodyS'
+  | 'labelL'
+  | 'labelM'
+  | 'labelS';
+export type Typography = Record<TypoKey, { fontWeight: number; fontSize: Px; lineHeight: Px; letterSpacing: Px }>;
 
 // https://m3.material.io/styles/typography/type-scale-tokens
 export const typography: Typography = {
