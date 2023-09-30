@@ -1,9 +1,9 @@
-import { typo } from '@/constants/index.ts';
+import { typography } from '@/constants/index.ts';
 
 import { convertTypoCSS2Tailwind, generatePixelValues } from './index.ts';
 
 it('convertTypoCSS2Tailwind', () => {
-  expect(convertTypoCSS2Tailwind(typo)).toEqual({
+  expect(convertTypoCSS2Tailwind(typography)).toEqual({
     bodyL: ['16px', { fontWeight: 400, letterSpacing: '0.5px', lineHeight: '24px' }],
     bodyM: ['14px', { fontWeight: 400, letterSpacing: '0.25px', lineHeight: '20px' }],
     bodyS: ['12px', { fontWeight: 400, letterSpacing: '0.4px', lineHeight: '16px' }],

@@ -1,11 +1,11 @@
 import { KeyValuePair, ResolvableTo } from 'tailwindcss/types/config';
 
-import { Typo } from '@/constants/index.ts';
+import { Typography } from '@/constants/index.ts';
 
 import { Px } from '../types.ts';
 
 export function convertTypoCSS2Tailwind(
-  typo: Typo,
+  typo: Typography,
 ): Record<string, [string, { fontWeight: number; lineHeight: Px; letterSpacing: Px }]> {
   return Object.entries(typo)
     .map(([key, value]) => {
