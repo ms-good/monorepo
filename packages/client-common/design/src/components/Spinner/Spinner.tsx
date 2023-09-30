@@ -11,7 +11,7 @@ interface Props {
   color?: Color;
 }
 
-// https://loading.io/css/
+// https://loading.io/css/ 참고
 export const Spinner: FC<Props> = ({ size = 'md', color = 'white' }) => {
   const { wrapperSize, spinnerBorder, innerSize, borderColor } = getStyle(size, color);
 
