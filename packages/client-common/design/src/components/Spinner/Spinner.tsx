@@ -1,10 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-unsafe-return */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { css } from '@emotion/react';
 import { FC } from 'react';
 
-import { color as _color } from '@/constants/color/index.ts';
+import { colors } from '@/constants/colors/index.ts';
 
 type Size = 'sm' | 'md' | 'lg';
 type Color = 'grey' | 'white';
@@ -83,10 +80,10 @@ const getStyle = (size: Size, color: Color) => {
   const borderColor = (() => {
     switch (color) {
       case 'grey':
-        return _color.gray['500'];
+        return colors.gray['500'];
       case 'white':
       default:
-        return _color.white;
+        return colors.white;
     }
   })();
 
