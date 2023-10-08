@@ -16,3 +16,42 @@ export const Default: Story = {
     children: '버튼',
   },
 };
+
+export const Loading: Story = {
+  args: {
+    isLoading: true,
+    children: '버튼',
+  },
+};
+export const Disabled: Story = {
+  args: {
+    disabled: true,
+    color: 'red',
+    children: '버튼',
+  },
+};
+
+export const Red: Story = {
+  args: {
+    color: 'red',
+    children: '버튼',
+  },
+};
+export const Blue: Story = {
+  args: {
+    color: 'blue',
+    children: '버튼',
+  },
+};
+export const Green: Story = {
+  args: {
+    color: 'green',
+    children: '버튼',
+  },
+};
+export const Gray: Story = {
+  args: {
+    color: 'gray',
+    children: '버튼',
+  },
+};

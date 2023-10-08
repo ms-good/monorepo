@@ -7,8 +7,14 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+
+    "jsxImportSource": "@emotion/react",
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "./tailwind.config.ts", "./jest.setup.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

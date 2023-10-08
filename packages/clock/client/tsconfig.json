@@ -15,6 +15,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "types", "./storybook/*"],
+  "include": ["src", "types", "./storybook/*", "./jest.setup.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
