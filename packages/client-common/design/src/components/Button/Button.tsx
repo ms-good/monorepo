@@ -1,9 +1,6 @@
 import { SerializedStyles } from '@emotion/react';
 import { ButtonHTMLAttributes, ElementType, forwardRef, ReactNode } from 'react';
-import {
-  css,
-  styled
-} from 'twin.macro';
+import { css, styled } from 'twin.macro';
 
 import { colors, typography } from '@/constants/index.ts';
 
